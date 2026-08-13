@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order a Custom Cake | Mzansi Bites Bakery</title>
+  <meta name="description" content="Order a custom celebration cake from Mzansi Bites Bakery in Durban. Tell us about your event and we'll get baking.">
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+
+  <header>
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <img src="Images/logo.png" alt="Mzansi Bites Bakery logo">
+      </a>
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="order.html" aria-current="page">Order a Cake</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-header container">
+      <h1>Order a Custom Cake</h1>
+      <p>Tell us about your celebration and we'll get baking. Orders require at least 5 days' notice.</p>
+    </section>
+
+    <section class="order-form container">
+      <!--
+        Note: Client-side validation with JavaScript will be added in Part 3.
+        Basic HTML5 "required" attributes are included here as a foundation.
+      -->
+      <form action="#" method="post">
+        <div class="form-group">
+          <label for="fullname">Full Name</label>
+          <input type="text" id="fullname" name="fullname" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone" required>
+        </div>
+
+        <div class="form-group">
+          <label for="event-date">Date Needed</label>
+          <input type="date" id="event-date" name="event-date" required>
+        </div>
+
+        <div class="form-group">
+          <label for="cake-type">Cake Type</label>
+          <select id="cake-type" name="cake-type" required>
+            <option value="">-- Select a cake type --</option>
+            <option value="vanilla">Classic Vanilla</option>
+            <option value="chocolate">Chocolate Fudge</option>
+            <option value="custom">Fully Custom Design</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="servings">Number of Servings</label>
+          <input type="number" id="servings" name="servings" min="4" max="200" required>
+        </div>
+
+        <div class="form-group">
+          <label for="details">Design Details / Special Requests</label>
+          <textarea id="details" name="details" rows="5"></textarea>
+        </div>
+
+        <button type="submit" class="btn">Submit Order Request</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div>
+        <h2>Mzansi Bites Bakery</h2>
+        <p>123 Bakery Lane, Durban, KwaZulu-Natal, South Africa</p>
+      </div>
+      <div>
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="order.html">Order a Cake</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Follow Us</h3>
+        <ul>
+          <li><a href="https://www.instagram.com" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="https://www.facebook.com" target="_blank" rel="noopener">Facebook</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="copyright">&copy; 2026 Mzansi Bites Bakery. All rights reserved.</p>
+  </footer>
+
+  <script src="JavaScript/script.js"></script>
+</body>
+</html>
