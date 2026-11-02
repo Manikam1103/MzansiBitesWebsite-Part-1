@@ -1,0 +1,17 @@
+{
+  "currency": "ZAR",
+  "items": [
+    {"id":"white-loaf","name":"Traditional White Loaf","category":"bread","price":25,"from":false,"image":"bakery-display-counter-bread","alt":"Fresh loaves on the Mzansi Bites bakery display counter","description":"Soft, golden white loaf baked every morning. Perfect for toast and school lunches.","leadDays":0},
+    {"id":"wholewheat-loaf","name":"Whole Wheat Loaf","category":"bread","price":28,"from":false,"image":"artisan-loaves-wheat","alt":"Whole wheat loaves with stalks of wheat","description":"Hearty wholegrain loaf with a nutty flavour and a tender crumb.","leadDays":0},
+    {"id":"seeded-sourdough","name":"Seeded Sourdough","category":"bread","price":45,"from":false,"image":"artisan-loaves-wheat","alt":"Artisan sourdough loaves with wheat","description":"Slow-fermented sourdough packed with sunflower, pumpkin and sesame seeds.","leadDays":1},
+    {"id":"vetkoek","name":"Vetkoek (6 pieces)","category":"bread","price":40,"from":false,"image":"fresh-bread-rolls-basket","alt":"Basket of freshly baked bread rolls","description":"Traditional deep-fried dough balls, delicious with mince or syrup.","leadDays":0},
+    {"id":"koeksisters","name":"Koeksisters (4 pieces)","category":"pastry","price":35,"from":false,"image":"butter-croissants-pastries","alt":"Golden pastries on a tray","description":"Plaited, syrup-soaked and crisp: a South African teatime classic.","leadDays":1},
+    {"id":"croissant","name":"Butter Croissant","category":"pastry","price":22,"from":false,"image":"butter-croissants-pastries","alt":"Freshly baked butter croissants","description":"Flaky, buttery layers baked golden every morning.","leadDays":0},
+    {"id":"chelsea-bun","name":"Chelsea Bun","category":"pastry","price":18,"from":false,"image":"butter-croissants-pastries","alt":"Assorted sweet pastries and buns","description":"Spiced fruit swirl bun with a sticky apricot glaze.","leadDays":0},
+    {"id":"milk-tart","name":"Milk Tart Slice","category":"pastry","price":30,"from":false,"image":"chef-dusting-icing-sugar","alt":"Pastry chef dusting icing sugar over baked treats","description":"Creamy cinnamon-dusted custard in a crisp short-crust base.","leadDays":0},
+    {"id":"vanilla-cake","name":"Classic Vanilla Cake (serves 10)","category":"cake","price":350,"from":true,"image":"sparkler-celebration-cake","alt":"Celebration cake topped with a sparkler","description":"Light vanilla sponge with buttercream. Choose your colours and message.","leadDays":5},
+    {"id":"chocolate-cake","name":"Chocolate Fudge Cake (serves 10)","category":"cake","price":400,"from":true,"image":"baker-piping-chocolate-cake","alt":"Baker piping icing onto a chocolate cake","description":"Rich, moist chocolate layers with fudge ganache.","leadDays":5},
+    {"id":"custom-cake","name":"Custom Designed Cake","category":"cake","price":550,"from":true,"image":"sparkler-celebration-cake","alt":"Decorated celebration cake","description":"Fully bespoke design for weddings, birthdays and corporate events.","leadDays":7},
+    {"id":"cupcake-box","name":"Cupcake Box (12 pieces)","category":"cake","price":280,"from":false,"image":"baker-piping-chocolate-cake","alt":"Chocolate cake being decorated with piped icing","description":"Twelve cupcakes in assorted flavours and toppings.","leadDays":2}
+  ]
+}

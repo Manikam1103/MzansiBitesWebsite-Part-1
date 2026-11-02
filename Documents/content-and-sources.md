@@ -47,7 +47,7 @@ Free icon and font sources for future design work (Part 2):
 ## 3. Original Content Created
 The following content was written specifically for this project (not
 copied from any external source):
-- All page copy in `index.html`, `about.html`, `menu.html`, `order.html`,
+- All page copy in `index.html`, `about.html`, `menu.html`, `enquiry.html`, `gallery.html`,
   `contact.html`
 - Menu items and indicative pricing
 - Team member names and roles (fictional, for illustrative purposes)

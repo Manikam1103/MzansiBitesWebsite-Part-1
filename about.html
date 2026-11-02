@@ -1,70 +1,100 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-ZA">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About Us | Mzansi Bites Bakery</title>
-  <meta name="description" content="Learn about Mzansi Bites Bakery's history, mission, and the family behind Durban's favourite neighbourhood bakery.">
+  <title>About Us | Mzansi Bites Bakery, Durban Family Bakers</title>
+  <meta name="description" content="Meet the Naidoo family behind Mzansi Bites Bakery in Durban: our story since 2019, our mission to bake fresh, local, home-style goods, and our team.">
+  <meta name="keywords" content="about Mzansi Bites, Durban bakery team, family bakery KwaZulu-Natal, home-style baking">
+  <meta name="author" content="Neolyn Manikam">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="theme-color" content="#4A2C17">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self' https://jsonplaceholder.typicode.com; frame-src https://www.google.com; form-action 'self' https://jsonplaceholder.typicode.com mailto:; base-uri 'self'; object-src 'none'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <link rel="canonical" href="https://manikam1103.github.io/MzansiBitesWebsite-Part-1/about.html">
+  <link rel="icon" type="image/png" href="Images/mzansi-bites-bakery-logo.png">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Mzansi Bites Bakery">
+  <meta property="og:locale" content="en_ZA">
+  <meta property="og:title" content="About Us | Mzansi Bites Bakery, Durban Family Bakers">
+  <meta property="og:description" content="Meet the Naidoo family behind Mzansi Bites Bakery in Durban: our story since 2019, our mission to bake fresh, local, home-style goods, and our team.">
+  <meta property="og:url" content="https://manikam1103.github.io/MzansiBitesWebsite-Part-1/about.html">
+  <meta property="og:image" content="https://manikam1103.github.io/MzansiBitesWebsite-Part-1/Images/fresh-bread-rolls-basket-600.jpg">
+  <meta property="og:image:alt" content="Basket of freshly baked bread rolls from Mzansi Bites Bakery">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="About Us | Mzansi Bites Bakery, Durban Family Bakers">
+  <meta name="twitter:description" content="Meet the Naidoo family behind Mzansi Bites Bakery in Durban: our story since 2019, our mission to bake fresh, local, home-style goods, and our team.">
+  <meta name="twitter:image" content="https://manikam1103.github.io/MzansiBitesWebsite-Part-1/Images/fresh-bread-rolls-basket-600.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap">
   <link rel="stylesheet" href="CSS/style.css">
+  <script src="JavaScript/head.js"></script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://manikam1103.github.io/MzansiBitesWebsite-Part-1/"}, {"@type": "ListItem", "position": 2, "name": "About", "item": "https://manikam1103.github.io/MzansiBitesWebsite-Part-1/about.html"}]}</script>
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to main content</a>
 
   <header>
     <div class="container header-inner">
-      <a href="index.html" class="logo">
-        <img src="Images/logo.png" alt="Mzansi Bites Bakery logo">
+      <a href="index.html" class="logo" aria-label="Mzansi Bites Bakery home">
+        <img src="Images/mzansi-bites-bakery-logo.png" alt="Mzansi Bites Bakery logo" width="140" height="42">
       </a>
-      <nav aria-label="Main navigation">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html" aria-current="page">About</a></li>
-          <li><a href="menu.html">Menu</a></li>
-          <li><a href="order.html">Order a Cake</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">&#9776; Menu</button>
+      <nav id="site-nav" aria-label="Main navigation">
+        <ul><li><a href="index.html">Home</a></li><li><a href="about.html" aria-current="page">About</a></li><li><a href="menu.html">Menu</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="enquiry.html">Enquiry</a></li><li><a href="contact.html">Contact</a></li></ul>
       </nav>
     </div>
   </header>
 
-  <main>
+  <nav class="breadcrumb container" aria-label="Breadcrumb"><ol><li><a href="index.html">Home</a></li><li aria-current="page">About</li></ol></nav>
+  <main id="main">
     <section class="page-header container">
       <h1>About Mzansi Bites Bakery</h1>
+      <p>A family-run Durban bakery, baking with heart since 2019.</p>
     </section>
 
-    <section class="about-content container">
-      <img src="Images/about.jpg" alt="Inside the Mzansi Bites Bakery kitchen">
-
-      <div>
-        <h2>Our Story</h2>
-        <p>
-          Mzansi Bites Bakery was founded in 2019 by the Naidoo family in Durban, starting as a
-          small home kitchen selling bread to neighbours. Word of mouth quickly grew our small
-          operation into a beloved local bakery, known for combining traditional South African
-          recipes with modern baking techniques.
-        </p>
-
-        <h2>Our Mission</h2>
-        <p>To bring quality, home-style baked goods to the community using fresh, local ingredients.</p>
-
-        <h2>Our Vision</h2>
-        <p>To become Durban's go-to neighbourhood bakery, known for quality, warmth, and community connection.</p>
-
-        <h2>Meet the Team</h2>
-        <ul>
-          <li><strong>Priya Naidoo</strong> — Founder &amp; Head Baker</li>
-          <li><strong>Sipho Dlamini</strong> — Pastry Chef</li>
-          <li><strong>Thandi Mokoena</strong> — Cake Decorator</li>
-        </ul>
+    <section class="about-content container reveal">
+      <img src="Images/baker-piping-chocolate-cake-600.jpg" srcset="Images/baker-piping-chocolate-cake-400.jpg 400w, Images/baker-piping-chocolate-cake-600.jpg 600w" sizes="(max-width: 820px) 100vw, 420px" alt="Baker piping chocolate icing onto a cake in the Mzansi Bites Bakery kitchen" width="400" height="600" loading="lazy" >
+      <div class="tabs">
+        <div class="tab-list" role="tablist" aria-label="About Mzansi Bites">
+          <button role="tab" id="tab-story" aria-controls="panel-story" aria-selected="true">Our Story</button>
+          <button role="tab" id="tab-mission" aria-controls="panel-mission" aria-selected="false" tabindex="-1">Mission</button>
+          <button role="tab" id="tab-vision" aria-controls="panel-vision" aria-selected="false" tabindex="-1">Vision</button>
+          <button role="tab" id="tab-team" aria-controls="panel-team" aria-selected="false" tabindex="-1">Meet the Team</button>
+        </div>
+        <div class="tab-panel" role="tabpanel" id="panel-story" aria-labelledby="tab-story">
+          <h2>Our Story</h2>
+          <p>Mzansi Bites Bakery was founded in 2019 by the Naidoo family in Durban, starting as a small home kitchen selling bread to neighbours. Word of mouth quickly grew our small operation into a beloved local bakery, known for combining traditional South African recipes with modern baking techniques.</p>
+          <p>Today we bake breads, pastries and custom celebration cakes every day. <a href="menu.html">See what is on the menu</a> or <a href="enquiry.html">send us an enquiry</a>.</p>
+        </div>
+        <div class="tab-panel" role="tabpanel" id="panel-mission" aria-labelledby="tab-mission">
+          <h2>Our Mission</h2>
+          <p>To bring quality, home-style baked goods to the community using fresh, local ingredients.</p>
+        </div>
+        <div class="tab-panel" role="tabpanel" id="panel-vision" aria-labelledby="tab-vision">
+          <h2>Our Vision</h2>
+          <p>To become Durban's go-to neighbourhood bakery, known for quality, warmth and community connection.</p>
+        </div>
+        <div class="tab-panel" role="tabpanel" id="panel-team" aria-labelledby="tab-team">
+          <h2>Meet the Team</h2>
+          <ul>
+            <li><strong>Priya Naidoo</strong>, Founder &amp; Head Baker</li>
+            <li><strong>Sipho Dlamini</strong>, Pastry Chef</li>
+            <li><strong>Thandi Mokoena</strong>, Cake Decorator</li>
+          </ul>
+        </div>
       </div>
     </section>
 
-    <section class="gallery container">
+    <section class="gallery container reveal">
       <h2>A Look Inside</h2>
       <div class="gallery-grid">
-        <img src="Images/gallery1.jpg" alt="Freshly baked goods on display">
-        <img src="Images/gallery2.jpg" alt="Bakery counter and products">
-        <img src="Images/gallery3.jpg" alt="Custom decorated cake">
+        <a href="gallery.html"><img src="Images/artisan-loaves-wheat-600.jpg" srcset="Images/artisan-loaves-wheat-400.jpg 400w, Images/artisan-loaves-wheat-600.jpg 600w" sizes="(max-width: 560px) 100vw, 360px" alt="Artisan bread loaves with stalks of wheat" width="400" height="600" loading="lazy" ></a>
+        <a href="gallery.html"><img src="Images/chef-dusting-icing-sugar-600.jpg" srcset="Images/chef-dusting-icing-sugar-400.jpg 400w, Images/chef-dusting-icing-sugar-600.jpg 600w" sizes="(max-width: 560px) 100vw, 360px" alt="Pastry chef dusting icing sugar over fresh bakes" width="600" height="400" loading="lazy" ></a>
+        <a href="gallery.html"><img src="Images/bakery-display-counter-bread-600.jpg" srcset="Images/bakery-display-counter-bread-400.jpg 400w, Images/bakery-display-counter-bread-600.jpg 600w" sizes="(max-width: 560px) 100vw, 360px" alt="Bakery counter full of fresh bread" width="600" height="400" loading="lazy" ></a>
       </div>
+      <p><a href="gallery.html">View the full photo gallery</a></p>
     </section>
   </main>
 
@@ -72,28 +102,26 @@
     <div class="container footer-inner">
       <div>
         <h2>Mzansi Bites Bakery</h2>
-        <p>123 Bakery Lane, Durban, KwaZulu-Natal, South Africa</p>
+        <address>123 Bakery Lane, Durban,<br>KwaZulu-Natal, South Africa</address>
+        <p><span data-open-status class="status-badge">Mon-Fri 07:00-18:00 · Sat 08:00-15:00</span></p>
+        <p><a href="tel:+27310000000">031 000 0000</a> · <a href="mailto:hello@mzansibites.co.za">hello@mzansibites.co.za</a></p>
       </div>
       <div>
         <h3>Quick Links</h3>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="menu.html">Menu</a></li>
-          <li><a href="order.html">Order a Cake</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
+        <ul><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="menu.html">Menu</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="enquiry.html">Enquiry</a></li><li><a href="contact.html">Contact</a></li></ul>
       </div>
       <div>
         <h3>Follow Us</h3>
         <ul>
-          <li><a href="https://www.instagram.com" target="_blank" rel="noopener">Instagram</a></li>
-          <li><a href="https://www.facebook.com" target="_blank" rel="noopener">Facebook</a></li>
+          <li><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+          <li><a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+          <li><a href="https://www.google.com/business/" target="_blank" rel="noopener noreferrer">Google Business Profile</a></li>
         </ul>
       </div>
     </div>
-    <p class="copyright">&copy; 2026 Mzansi Bites Bakery. All rights reserved.</p>
+    <p class="copyright">&copy; 2026 Mzansi Bites Bakery. All rights reserved. A fictional business created for the WEDE5020 Portfolio of Evidence.</p>
   </footer>
-
+  <button class="to-top" type="button" aria-label="Back to top">&uarr;</button>
+  <script src="JavaScript/script.js" defer></script>
 </body>
 </html>

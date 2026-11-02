@@ -1,0 +1,7 @@
+# robots.txt for Mzansi Bites Bakery
+User-agent: *
+Allow: /
+Disallow: /Documents/
+Disallow: /Screenshots/
+
+Sitemap: https://manikam1103.github.io/MzansiBitesWebsite-Part-1/sitemap.xml

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en-ZA">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photo Gallery | Fresh Bakes from Mzansi Bites, Durban</title>
+  <meta name="description" content="See photos of fresh sourdough, croissants, pastries and decorated celebration cakes from Mzansi Bites Bakery in Durban. Click any photo to enlarge.">
+  <meta name="keywords" content="bakery photos Durban, cake gallery, bread photos, celebration cake designs">
+  <meta name="author" content="Neolyn Manikam">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="theme-color" content="#4A2C17">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self' https://jsonplaceholder.typicode.com; frame-src https://www.google.com; form-action 'self' https://jsonplaceholder.typicode.com mailto:; base-uri 'self'; object-src 'none'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <link rel="canonical" href="https://manikam1103.github.io/MzansiBitesWebsite-Part-1/gallery.html">
+  <link rel="icon" type="image/png" href="Images/mzansi-bites-bakery-logo.png">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Mzansi Bites Bakery">
+  <meta property="og:locale" content="en_ZA">
+  <meta property="og:title" content="Photo Gallery | Fresh Bakes from Mzansi Bites, Durban">
+  <meta property="og:description" content="See photos of fresh sourdough, croissants, pastries and decorated celebration cakes from Mzansi Bites Bakery in Durban. Click any photo to enlarge.">
+  <meta property="og:url" content="https://manikam1103.github.io/MzansiBitesWebsite-Part-1/gallery.html">
+  <meta property="og:image" content="https://manikam1103.github.io/MzansiBitesWebsite-Part-1/Images/fresh-bread-rolls-basket-600.jpg">
+  <meta property="og:image:alt" content="Basket of freshly baked bread rolls from Mzansi Bites Bakery">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Photo Gallery | Fresh Bakes from Mzansi Bites, Durban">
+  <meta name="twitter:description" content="See photos of fresh sourdough, croissants, pastries and decorated celebration cakes from Mzansi Bites Bakery in Durban. Click any photo to enlarge.">
+  <meta name="twitter:image" content="https://manikam1103.github.io/MzansiBitesWebsite-Part-1/Images/fresh-bread-rolls-basket-600.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap">
+  <link rel="stylesheet" href="CSS/style.css">
+  <script src="JavaScript/head.js"></script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://manikam1103.github.io/MzansiBitesWebsite-Part-1/"}, {"@type": "ListItem", "position": 2, "name": "Gallery", "item": "https://manikam1103.github.io/MzansiBitesWebsite-Part-1/gallery.html"}]}</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header>
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="Mzansi Bites Bakery home">
+        <img src="Images/mzansi-bites-bakery-logo.png" alt="Mzansi Bites Bakery logo" width="140" height="42">
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">&#9776; Menu</button>
+      <nav id="site-nav" aria-label="Main navigation">
+        <ul><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="menu.html">Menu</a></li><li><a href="gallery.html" aria-current="page">Gallery</a></li><li><a href="enquiry.html">Enquiry</a></li><li><a href="contact.html">Contact</a></li></ul>
+      </nav>
+    </div>
+  </header>
+
+  <nav class="breadcrumb container" aria-label="Breadcrumb"><ol><li><a href="index.html">Home</a></li><li aria-current="page">Gallery</li></ol></nav>
+  <main id="main">
+    <section class="page-header container">
+      <h1>Photo Gallery</h1>
+      <p>A peek behind the counter at Mzansi Bites Bakery. Tap a photo to enlarge it.</p>
+    </section>
+
+    <section class="gallery container">
+      <h2>Fresh from Our Kitchen</h2>
+      <div class="gallery-filter chips" role="group" aria-label="Filter photos">
+        <button class="chip" type="button" data-gallery-filter="all" aria-pressed="true">All</button>
+        <button class="chip" type="button" data-gallery-filter="bread" aria-pressed="false">Bread</button>
+        <button class="chip" type="button" data-gallery-filter="pastry" aria-pressed="false">Pastries</button>
+        <button class="chip" type="button" data-gallery-filter="cake" aria-pressed="false">Cakes</button>
+        <button class="chip" type="button" data-gallery-filter="bakery" aria-pressed="false">The Bakery</button>
+      </div>
+      <div class="gallery-grid gallery-page">
+        <button class="gallery-item" type="button" data-full="Images/baker-piping-chocolate-cake-600.jpg" data-category="cake" data-caption="Our baker piping chocolate icing onto a celebration cake">
+          <img src="Images/baker-piping-chocolate-cake-600.jpg" srcset="Images/baker-piping-chocolate-cake-400.jpg 400w, Images/baker-piping-chocolate-cake-600.jpg 600w" sizes="(max-width: 560px) 100vw, 240px" alt="Baker piping chocolate icing onto a cake" width="400" height="600" loading="lazy" >
+        </button>
+        <button class="gallery-item" type="button" data-full="Images/sparkler-celebration-cake-600.jpg" data-category="cake" data-caption="A celebration cake topped with a sparkler">
+          <img src="Images/sparkler-celebration-cake-600.jpg" srcset="Images/sparkler-celebration-cake-400.jpg 400w, Images/sparkler-celebration-cake-600.jpg 600w" sizes="(max-width: 560px) 100vw, 240px" alt="Celebration cake topped with a sparkler" width="400" height="600" loading="lazy" >
+        </button>
+        <button class="gallery-item" type="button" data-full="Images/artisan-loaves-wheat-600.jpg" data-category="bread" data-caption="Artisan loaves baked fresh each morning">
+          <img src="Images/artisan-loaves-wheat-600.jpg" srcset="Images/artisan-loaves-wheat-400.jpg 400w, Images/artisan-loaves-wheat-600.jpg 600w" sizes="(max-width: 560px) 100vw, 240px" alt="Artisan bread loaves with stalks of wheat" width="400" height="600" loading="lazy" >
+        </button>
+        <button class="gallery-item" type="button" data-full="Images/fresh-bread-rolls-basket-600.jpg" data-category="bread" data-caption="A basket of warm bread rolls">
+          <img src="Images/fresh-bread-rolls-basket-600.jpg" srcset="Images/fresh-bread-rolls-basket-400.jpg 400w, Images/fresh-bread-rolls-basket-600.jpg 600w" sizes="(max-width: 560px) 100vw, 240px" alt="Basket of freshly baked bread rolls" width="600" height="400" loading="lazy" >
+        </button>
+        <button class="gallery-item" type="button" data-full="Images/bakery-display-counter-bread-600.jpg" data-category="bakery" data-caption="The Mzansi Bites display counter">
+          <img src="Images/bakery-display-counter-bread-600.jpg" srcset="Images/bakery-display-counter-bread-400.jpg 400w, Images/bakery-display-counter-bread-600.jpg 600w" sizes="(max-width: 560px) 100vw, 240px" alt="Bakery display counter full of fresh bread" width="600" height="400" loading="lazy" >
+        </button>
+        <button class="gallery-item" type="button" data-full="Images/butter-croissants-pastries-600.jpg" data-category="pastry" data-caption="Golden butter croissants and pastries">
+          <img src="Images/butter-croissants-pastries-600.jpg" srcset="Images/butter-croissants-pastries-400.jpg 400w, Images/butter-croissants-pastries-600.jpg 600w" sizes="(max-width: 560px) 100vw, 240px" alt="Golden butter croissants and pastries" width="600" height="400" loading="lazy" >
+        </button>
+        <button class="gallery-item" type="button" data-full="Images/chef-dusting-icing-sugar-600.jpg" data-category="pastry" data-caption="Dusting icing sugar over fresh bakes">
+          <img src="Images/chef-dusting-icing-sugar-600.jpg" srcset="Images/chef-dusting-icing-sugar-400.jpg 400w, Images/chef-dusting-icing-sugar-600.jpg 600w" sizes="(max-width: 560px) 100vw, 240px" alt="Pastry chef dusting icing sugar over fresh bakes" width="600" height="400" loading="lazy" >
+        </button>
+      </div>
+      <p>Love what you see? <a href="menu.html">Browse the menu</a> or <a href="enquiry.html">enquire about a custom cake</a>.</p>
+    </section>
+
+    <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer" aria-hidden="true">
+      <button class="lb-btn lb-close" type="button" aria-label="Close photo viewer">&times;</button>
+      <button class="lb-btn lb-prev" type="button" aria-label="Previous photo">&#8249;</button>
+      <figure>
+        <img src="Images/fresh-bread-rolls-basket-600.jpg" alt="">
+        <figcaption></figcaption>
+      </figure>
+      <button class="lb-btn lb-next" type="button" aria-label="Next photo">&#8250;</button>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div>
+        <h2>Mzansi Bites Bakery</h2>
+        <address>123 Bakery Lane, Durban,<br>KwaZulu-Natal, South Africa</address>
+        <p><span data-open-status class="status-badge">Mon-Fri 07:00-18:00 · Sat 08:00-15:00</span></p>
+        <p><a href="tel:+27310000000">031 000 0000</a> · <a href="mailto:hello@mzansibites.co.za">hello@mzansibites.co.za</a></p>
+      </div>
+      <div>
+        <h3>Quick Links</h3>
+        <ul><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="menu.html">Menu</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="enquiry.html">Enquiry</a></li><li><a href="contact.html">Contact</a></li></ul>
+      </div>
+      <div>
+        <h3>Follow Us</h3>
+        <ul>
+          <li><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+          <li><a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+          <li><a href="https://www.google.com/business/" target="_blank" rel="noopener noreferrer">Google Business Profile</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="copyright">&copy; 2026 Mzansi Bites Bakery. All rights reserved. A fictional business created for the WEDE5020 Portfolio of Evidence.</p>
+  </footer>
+  <button class="to-top" type="button" aria-label="Back to top">&uarr;</button>
+  <script src="JavaScript/script.js" defer></script>
+</body>
+</html>
